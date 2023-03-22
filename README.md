@@ -1,18 +1,18 @@
 # Wordpress Deplyment Using deployer
 
-1. #Create a Project 
+#1.Create a Project 
   mkdir deployer-project
   cd deployer-project and have set up test wordpress project
 
-2.#Installing Deployer is done through composer.
+#2.#Installing Deployer is done through composer.
 
   composer require deployer/deployer 
   
-3. #Go to vendor/bin
+#3. #Go to vendor/bin
    cd vendor/bin
    
   
-4. #Run `dep init` and to walk us through the steps to set up our deployer project.
+#4. #Run `dep init` and to walk us through the steps to set up our deployer project.
 
    a. Select recipe language [php]:
    b. Select project template [common]: Select wordpress
@@ -50,7 +50,7 @@
      <?
          
 
-5. To Deploy the project run command - 'dep deploy'
+#5. To Deploy the project run command - 'dep deploy'
 
 
 
